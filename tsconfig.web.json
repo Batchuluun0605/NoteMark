@@ -7,7 +7,9 @@
     "src/preload/*.d.ts",
     "src/shared/**/*",
   ],
+  
   "compilerOptions": {
+    "outDir": "dist",
     "composite": true,
     "jsx": "react-jsx",
     "noUnusedLocals": false,
